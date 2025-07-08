@@ -4,10 +4,10 @@
 
 ## 🌐 Community & Support
 
-**You can support the project by donating on Ko-fi**
+**You can support the project by donating on Ko-fi.**
 - [Ko-fi](https://ko-fi.com/mandiclab)
 
-**Stay connected, get updates, ask questions**
+**Stay connected, get updates, ask questions.**
 - [Discord Server](https://discord.gg/aApBQxZUcu)
 - [Web Site](https://www.mandiclab.com/)
 - [YouTube](https://www.youtube.com/@mandiclab)
@@ -28,10 +28,10 @@
 ## 📜 Licenses
 
 - **Software** (.ino, .xml, .js):  
-  Licensed under the [Apache License 2.0](LICENSE-SOFTWARE)
+  Licensed under the [Apache License 2.0](LICENSE-SOFTWARE.txt)
 
 - **Hardware** (.FCStd, .stl, .txt):  
-  Licensed under the [Creative Commons Attribution 4.0 International License](LICENSE-HARDWARE)
+  Licensed under the [Creative Commons Attribution 4.0 International License](LICENSE-HARDWARE.txt)
 
 
 Made with ❤️ - MandićLab

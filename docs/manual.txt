@@ -6,7 +6,7 @@ Need help? Discord server is recommended, invite link on website: mandiclab.com 
 1. 3D print the case.
 
 
-2. Solder: (In meanwhile you can print other parts)
+2. Solder: (In meanwhile you can print other parts) (you can glue parts to case)
 
 Arduino Pin    | Part
 [D1]     [TXO]   Jog Wheel         Deck 1 - Rotary Encoder Pin B
