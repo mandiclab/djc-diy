@@ -1,0 +1,18 @@
+Electronic parts: (those parts are 99% accurate but I will see exact parts that i ordered and confirm parts list soon)
+
+Micro Controller - Pro Micro ATmega32U4 5V/16MHz
+Push Button - Tactile Push Button 12*12*7.3mm Square Head
+Rotary Potentiometer - RK09 B10K shaft length 23mm (recommended with center detent)
+Slider Potentiometer - B103 65x7.5mm (recommended with center detent)
+Rotary Encoder - EC 11 half handle 20mm
+
+
+3D Printed parts:
+1x case
+2x button_play-pause
+2x button_cue
+4x button_performance-pad
+4x potentiometer_rotary-cap
+3x potentiometer_slider-cap
+2x jog-wheel
+4x screw
