@@ -1,0 +1,249 @@
+\documentclass[12pt, a4paper]{article}
+
+% ---------- PAKETI ----------
+\usepackage[margin=1in]{geometry}   % margine
+\usepackage{graphicx}               % slike
+\usepackage{float}                  % [H] pozicija slika
+\usepackage{qrcode}                 % QR kodovi
+\usepackage{hyperref}               % linkovi
+\usepackage{titlesec}               % sekcije sa brojevima
+\usepackage{fontspec}               % za Montserrat font
+\setmainfont{Montserrat}            % Montserrat kao default font
+
+\usepackage[english]{babel}         % jezik
+\usepackage{setspace}               % razmak
+\onehalfspacing                     % 1.5x razmak
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+	pdftitle={DJC-DIY Assembly Guide},
+	pdfauthor={MandićLab}
+}
+
+\begin{document}
+	
+	
+	\begin{titlepage}
+		\begin{center}
+			{\fontsize{32pt}{0}\selectfont DJC-DIY} \\
+			\vspace{4pt}
+			{\fontsize{16pt}{0}\selectfont \textbf{ASSEMBLY GUIDE}} \\
+			\vspace{0.5in}
+		\end{center}
+		
+		\vfill
+		
+		\begin{flushright}
+			\begin{minipage}[]{0.3\textwidth}
+				\centering
+				\includegraphics[width=0.5\linewidth]{assets/logo_mandiclab.png} \\
+				\vspace{2pt}
+				{\fontsize{16pt}{0}\selectfont MandićLab} \\
+				{\fontsize{9}{0}\selectfont \textbf{MADE WITH LOVE}} \\
+				{\fontsize{11}{0}\selectfont \textit{\href{https://mandiclab.com}{mandiclab.com}}} \\
+			\end{minipage}
+		\end{flushright}
+	\end{titlepage}
+	
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	
+	\section{Introduction}
+		
+		\noindent This guide will walk you through building your own DIY DJ controller step by step whether you're experienced or total beginner. \\
+		
+		\noindent The goal is to make this process clear, simple and enjoyable. No need for special tools or knowledge. If you can hold a soldering iron and follow instructions, you're good to go. \\
+		
+		\noindent Guide will cover all required tools, parts, software and files you'll need to have. Full assembling process from 3D printing parts, soldering components to assembling printed parts, and software setup that includes uploading firmware and installing mapping files. \\
+		
+		\noindent By the end, you will have fully functional DJ controller. \\
+		
+		\vfill
+	
+		\newpage
+	
+	
+	\section{Required}
+	
+		\noindent In this section, we will go through everything you should have ready before starting the project.
+		
+		
+		\subsection{Tools}
+			
+			\begin{itemize}
+				\item Safety goggles
+				\item PC / Laptop
+				\item 3D Printer
+				\item Soldering Iron
+				\item Solder Wire
+				\item Soldering Flux/Paste
+				\item Wire Stripper
+				\item Wire Cutters
+				\item Fine Tipped Pliers
+				\item Tweezers
+				\item Philips Screwdriver
+				\item USB-C Cable
+				\item Glue (Super Glue / Hot Glue Gun / Universal Glue)
+			\end{itemize}
+			
+			\vfill
+			
+	
+		\subsection{Parts}
+			
+			\subsubsection{3D printed parts}
+				\begin{itemize}
+					\item 1x Case
+					\item 1x Front Panel
+					\item 4x Screw
+					\item 2x Jog Wheel
+					\item 2x Play/Pause Button Cap
+					\item 2x Cue Button Cap
+					\item 4x Performance Pad Cap
+					\item 4x Rotary Potentiometer Cap
+					\item 3x Slide Potentiometer Cap
+				\end{itemize}
+			
+			\subsubsection{Electronic Components}
+				\begin{itemize}
+					\item 1x Pro Micro - ATmega32U4 5V 
+					\item 8x Push Button - B3F-4055 - 12x12x7.3mm
+					\item 4x Rotary Potentiometer - B103 - 10k$\Omega$ - RV09 - D Shaft - 23mm - Recommended with center click (RV0902N)
+					\item 3x Slide Potentiometer - B103 - 10k$\Omega$ - 60mm - Recommended with center click
+					\item 2x Rotary Encoder - EC11 - D Shaft - 15mm - Recommended without push button
+					\item 24AWG Wire - Recommended in different colors (Red, Black, Blue, Green, Yellow) - About 1m of each
+					\item 1x 1/4W 10k$\Omega$ Resistor
+					\item 1x 1/4W 1k$\Omega$ Resistor
+					\item 1x 1/4W 330$\Omega$ Resistor
+				\end{itemize}
+
+
+		\subsection{Software}
+		
+			\subsubsection{Slicing Software - UltiMaker Cura}
+			
+				\noindent You will need a slicer to prepare 3D models for printing. You can use any slicer you prefer, but this guide and the YouTube tutorial uses UltiMaker Cura, a free and open-source slicing software.
+				
+				\noindent\href{https://ultimaker.com/software/ultimaker-cura/}{\textbf{Download UltiMaker Cura}}
+			
+			\subsubsection{Development Environment - Arduino IDE}
+				
+				\noindent To upload firmware to micro controller, you will need Arduino IDE. It is free and open source too so you can download it for free.
+				
+			\noindent\href{https://www.arduino.cc/en/software/}{\textbf{Download Arduino IDE}}
+					
+			\subsubsection{DJ Software - Mixxx}
+			
+				\noindent To test and use controller you'll need DJ software. Currently controller supports only Mixxx. You guessed it, Mixxx is an open-source too so you can download it for free.
+				
+				\noindent\href{https://mixxx.org/download/}{\textbf{Download Mixxx}}
+		
+		\subsection{Files}
+			
+			\noindent Download all project files such as 3D models, firmware and mapping files on GitHub.
+				
+			\noindent\href{https://github.com/mandiclab/djc-diy}{\textbf{Download Project Files}}
+				
+			\newpage
+
+	\section{Building Process}
+		
+		\noindent Preparing is over, now let's get to work.
+	
+		\subsection{3D Printing}
+			
+			\noindent Let's start with 3D printing. \\
+			
+			\noindent We'll go through settings for each 3D print. "Fast speed" will be the fastest stable speed for your 3D printer. If you don't know it, go with default speed. "Slow speed" will be used for printing small and precise parts like screws. If you don't know which speed to use, try with half of your default speed. \\
+			
+			\noindent For infill, there will be minimum value, you can go perfectly with it but if you want you can go up to 100\%. Lower values aren't tested.  \\
+	
+			
+			\subsubsection{Case}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+					\item Tree support, Touching build plate
+					\item Brim 10mm 
+				\end{itemize}
+				
+				\noindent If you know that your edges wouldn't warp, you can go without brim. But keep in mind that case is 175x120mm. We'll recommend you to not risk 6h of printing and 80g of plastic for few grams and minutes more.
+				
+			\subsubsection{Front Panel}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+				\end{itemize}
+				
+			\subsubsection{Jog Wheels}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+					\item Tree support, Touching build plate
+				\end{itemize}
+				
+				\noindent You'll need support for the hole where rotary encoder goes.
+				
+			\subsubsection{Button Caps}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+					\item Tree support, Touching build plate
+					\item Brim 10mm
+				\end{itemize}
+				
+				\noindent Those are settings for printing button caps facing up, if you are printing them upside down, you won't need support and brim. 
+				
+			\subsubsection{Rotary Potentiometer Caps}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+					\item Tree support, Touching build plate
+				\end{itemize}
+				
+				\noindent Support is here for the hole for potentiometer.
+				
+			\subsubsection{Slide Potentiometer Caps}
+				\begin{itemize}
+					\item Fast speed
+					\item 20\% Infill
+				\end{itemize}
+			
+			\subsubsection{Screws}
+				\begin{itemize}
+					\item Fast speed
+					\item 100\% Infill
+					\item Tree support, Touching build plate
+					\item Brim
+				\end{itemize}
+			
+				\noindent If you're printing them upside down, you won't need support and brim.
+				
+		\subsection{Soldering Components}
+		\subsection{Assembling Printed Parts}
+			
+			\noindent First upload firmware, install mapping files and test your device, then assemble the come back here. \\
+		
+			\noindent Put front panel on case then put jog wheels, button and potentiometer caps before screwing front panel.
+			
+			
+	\section{Software Setup}
+	
+		\subsection{Uploading Firmware}
+			\noindent Open "firmware.ino" \\
+			
+			\noindent Select your port where is your device connected. You can find it buy plugging and unplugging device and seeing which device disconnects and connects. \\
+			
+			\noindent Click upload code. \\
+			
+		\subsection{Installing Mapping files}
+			\noindent Copy "DJC-DIY.xml" and "DJC-DIY-scripts.js" to \\ "C:\textbackslash{}Users\textbackslash{}username\textbackslash{}AppData\textbackslash{}Local\textbackslash{}Mixxx\textbackslash{}controllers". \\
+			
+			\noindent Now you can try your controller before assembling the rest. Just in case you haven't wired something right.
+	
+\end{document}

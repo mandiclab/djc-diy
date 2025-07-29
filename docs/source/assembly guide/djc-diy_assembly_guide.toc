@@ -1,0 +1,26 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Required}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Tools}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Parts}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}3D printed parts}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Electronic Components}{4}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Software}{5}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Slicing Software - UltiMaker Cura}{5}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Development Environment - Arduino IDE}{5}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}DJ Software - Mixxx}{5}{subsubsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.4}Files}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Building Process}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}3D Printing}{6}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Case}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Front Panel}{6}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}Jog Wheels}{6}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}Button Caps}{7}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.5}Rotary Potentiometer Caps}{7}{subsubsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.6}Slide Potentiometer Caps}{7}{subsubsection.3.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.7}Screws}{7}{subsubsection.3.1.7}%
+\contentsline {subsection}{\numberline {3.2}Soldering Components}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Assembling Printed Parts}{8}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Software Setup}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Uploading Firmware}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Installing Mapping files}{8}{subsection.4.2}%
