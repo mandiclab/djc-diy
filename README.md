@@ -27,14 +27,14 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 ## 👥 Community
 ☕ Support the project by donating on **[Ko-fi](https://ko-fi.com/mandiclab)**.  
 🚀 Join the community on **[Discord](https://discord.gg/aApBQxZUcu)**.  
-📱 Follow us on **[Instagram](https://instagram.com/mandiclab)** and **[YouTube](https://youtube.com/@mandiclab)**
+📱 Follow us on  **[YouTube](https://youtube.com/@mandiclab)** and **[Instagram](https://instagram.com/mandiclab)**
 
 ## ⚖️ Licenses
-** 💻 Software** *(.ino, .xml, .js)*
+**💻 Software** *(.ino, .xml, .js)*  
   Licensed under the [GPL-3.0](LICENSE-SOFTWARE.txt)
 
-** 🔩 Hardware** *(.FCStd, .stl)*  
+**🔩 Hardware** *(.FCStd, .stl)*  
   Licensed under the [CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)
 
-**📘 Documentation** *(.pdf, .tex)*
+**📘 Documentation** *(.pdf, .tex)*  
   Licensed under the [CC-BY-4.0](LICENSE-DOCUMENTATION.txt)
