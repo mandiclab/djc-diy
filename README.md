@@ -30,8 +30,11 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 📱 Follow us on **[Instagram](https://instagram.com/mandiclab)** and **[YouTube](https://youtube.com/@mandiclab)**
 
 ## ⚖️ Licenses
-**Software** (.ino, .xml, .js):  
-  Licensed under the [Apache License 2.0](LICENSE-SOFTWARE.txt)
+** 💻 Software** *(.ino, .xml, .js)*
+  Licensed under the [GPL-3.0](LICENSE-SOFTWARE.txt)
 
-**Hardware** (.FCStd, .stl, .pdf):  
-  Licensed under the [Creative Commons Attribution 4.0 International License](LICENSE-HARDWARE.txt)
+** 🔩 Hardware** *(.FCStd, .stl)*  
+  Licensed under the [CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)
+
+**📘 Documentation** *(.pdf, .tex)*
+  Licensed under the [CC-BY-4.0](LICENSE-DOCUMENTATION.txt)
