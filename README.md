@@ -12,8 +12,6 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 ⚙️ **Firmware** - *here's the firmware*  
 🎛️ **Mixxx Mapping Files** - *and here's mapping files*
 
-
-
 ## ⬇️ Download
 
 Download latest stable release from **[releases](https://github.com/mandiclab/djc-diy/releases)**. 
@@ -28,6 +26,28 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 ☕ Support the project by donating on **[Ko-fi](https://ko-fi.com/mandiclab)**.  
 🚀 Join the community on **[Discord](https://discord.gg/aApBQxZUcu)**.  
 📱 Follow us on  **[YouTube](https://youtube.com/@mandiclab)** and **[Instagram](https://instagram.com/mandiclab)**
+
+## 🔩 Parts List
+
+### 3D Printed Parts
+
+**If you don’t have access to a 3D printer, you can order 3D printed parts from PCBWay using the link below.**  
+*Using this link directly supports the development of MandićLab.* 
+
+**[PCBWay](https://www.pcbway.com/project/shareproject/DIY_DJ_Controller_DJC_DIY_adac65c3.html)**
+
+### Electronic Components  
+| **🔢 Quantity** | **🧩 Component** | **📄 Description** |
+|:---:|:---|:---|
+| x1 | 🧠 Microcontroller | Arduino Pro Micro - ATmega32U4 |
+| x8 | 🔘 Buttons | B3F-4055 - 12x12x7.3mm |
+| x4 | 🎛️ Rotary Potentiometers | R0902N - B103 - 10kΩ - 23mm shaft lenght - D shaft |
+| x3 | 🎚️ Slider Potentiometers | 60mm - B103 - 10kΩ - 15mm handle lenght |
+| x2 | 🔄 Rotary Encoders | Encoders for knobs & jog wheels |
+| x1 | ➖ Resistor | 1/4W - 10kΩ |
+| x1 | ➖ Resistor | 1/4W - 1kΩ |
+| x1 | ➖ Resistor | 1/4W - 330kΩ |
+|  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
 
 ## ⚖️ Licenses
 **💻 Software** *(.ino, .xml, .js)*  
