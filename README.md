@@ -55,6 +55,3 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 
 **🔩 Hardware** *(.FCStd, .stl)*  
   Licensed under the [CERN-OHL-S-2.0](LICENSE-HARDWARE.txt)
-
-**📘 Documentation** *(.pdf, .tex)*  
-  Licensed under the [CC-BY-4.0](LICENSE-DOCUMENTATION.txt)
