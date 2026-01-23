@@ -7,7 +7,7 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 ## 📁 Project Files
 
 🧊 **3D Models** - *.stl (mesh files for 3D printing), .FCStd (FreeCad source files)*  
-⏪ **Backward Compatible** - *if you made DJC-DIY before, here you can find parts to upgrade it to a newer version* 
+⏪ **Backward Compatible** - *if you made DJC-DIY before, here you can find parts to upgrade it to a newer version*  
 ⚙️ **Firmware** - *here's the firmware*  
 🎛️ **Mixxx Mapping Files** - *and here's mapping files*
 
