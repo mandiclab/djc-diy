@@ -4,6 +4,17 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 
 ![Hot Pic](https://www.mandiclab.com/assets/project-photos/djc-diy/003.webp)
 
+Kurac Picka Govno Sisa
+
+## ▶️ Video Preview & Tutorial
+👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
+🎓 **[Tutorial](https://youtu.be/pAYhAsbDP9I?si=Bvd1b9u0WtWM_3as)**
+
+## 👥 Community
+☕ Support by donating on **[Ko-fi](https://ko-fi.com/mandiclab)**.  
+🚀 Join the community on **[Discord](https://discord.gg/aApBQxZUcu)**.  
+📱 Subscribe on  **[YouTube](https://youtube.com/@mandiclab)** and follow on **[Instagram](https://instagram.com/mandiclab)**.
+
 ## 📁 Project Files
 
 🧊 **3D Models** - *.stl (mesh files for 3D printing), .FCStd (FreeCad source files)*  
@@ -18,15 +29,6 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 >[!WARNING]
 >*If you download the whole repo, there's a chance that you'll download files in the middle of the update process and get incomplete version.*
 
-## ▶️ Video Preview & Tutorial
-👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
-🎓 **[Tutorial](https://youtu.be/pAYhAsbDP9I?si=Bvd1b9u0WtWM_3as)**
-
-## 👥 Community
-☕ Support the project by donating on **[Ko-fi](https://ko-fi.com/mandiclab)**.  
-🚀 Join the community on **[Discord](https://discord.gg/aApBQxZUcu)**.  
-📱 Follow us on  **[YouTube](https://youtube.com/@mandiclab)** and **[Instagram](https://instagram.com/mandiclab)**
-
 ## 🔩 Parts List
 
 ### 3D Printed Parts
@@ -36,7 +38,7 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 
 **[PCBWay](https://www.pcbway.com/project/shareproject/DIY_DJ_Controller_DJC_DIY_adac65c3.html)**
 
-| **🔢 Quantity** | **🧊 Part** | **📄 file name** |
+| **🔢 Quantity** | **🧊 Part** | **📄 File Name** |
 |:---:|:---|:---|
 | x1 | Case | case.stl |
 | x1 | Front Panel | front-panel.stl |
@@ -60,6 +62,38 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x2 | 🔄 Rotary Encoders | Encoders for knobs & jog wheels |
 | x? | ➖ Resistor | 1/4W - 10kΩ |
 |  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
+
+## 🛠️ Assembly Guide
+
+**1. Acquire electronic components**  
+**2. 3D print parts**  
+**3. Wire electronics in the case**  
+**4. Install firmware**  
+**5. Install mapping files**  
+**6. Test the device**  
+**7. Assemble the rest 3D printed parts**
+
+### Acquire electronic components
+
+### 3D print parts
+
+### Wire electronics in the case
+
+### Install firmware
+
+### Install mapping files
+
+### Test the device
+
+### Assemble the rest 3D printed parts
+
+## ❓ FAQ
+
+**Q:** Is it for sale?  
+**A:** For now, we're not selling the device or DIY kit.
+
+**Q:** Does it work with other DJ software such as Virtual DJ, Rekordbox or Traktor?
+**A:** Currently out of the box it only works with Mixxx, but the controller sends standard MIDI messages, so it can be manually mapped to other software.
 
 ## ⚖️ Licenses
 **💻 Software** *(.ino, .xml, .js)*  
