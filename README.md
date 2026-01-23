@@ -16,7 +16,8 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 
 Download latest stable release from **[releases](https://github.com/mandiclab/djc-diy/releases)**. 
 
-*If you download the whole repo, there's a chance that you'll download files in the middle of the update process and get incomplete version.*
+>[!WARNING]
+>*If you download the whole repo, there's a chance that you'll download files in the middle of the update process and get incomplete version.*
 
 ## ▶️ Video Preview & Tutorial
 👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
@@ -36,6 +37,20 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 
 **[PCBWay](https://www.pcbway.com/project/shareproject/DIY_DJ_Controller_DJC_DIY_adac65c3.html)**
 
+| **🔢 Quantity** | **🧊 Part** | **📄 file name** |
+|:---:|:---|:---|
+| x1 | Case | case.stl |
+| x1 | Front Panel | front-panel.stl |
+| x1 | Arduino Spring | arduino-spring.stl |
+| x2 | Jog Wheel | jog-wheel.stl |
+| x2 | Play/Pause | play-pause.stl |
+| x2 | Cue | cue.stl |
+| x4 | Performance Pad | performance-pad.stl |
+| x1 | Crossfader | crossfader.stl |
+| x2 | Tempo Fader | tempo-fader.stl |
+| x4 | Knob | knob.stl |
+| x4 | Feet | feet.stl |
+
 ### Electronic Components  
 | **🔢 Quantity** | **🧩 Component** | **📄 Description** |
 |:---:|:---|:---|
@@ -44,9 +59,7 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x4 | 🎛️ Rotary Potentiometers | R0902N - B103 - 10kΩ - 23mm shaft lenght - D shaft |
 | x3 | 🎚️ Slider Potentiometers | 60mm - B103 - 10kΩ - 15mm handle lenght |
 | x2 | 🔄 Rotary Encoders | Encoders for knobs & jog wheels |
-| x1 | ➖ Resistor | 1/4W - 10kΩ |
-| x1 | ➖ Resistor | 1/4W - 1kΩ |
-| x1 | ➖ Resistor | 1/4W - 330kΩ |
+| x? | ➖ Resistor | 1/4W - 10kΩ |
 |  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
 
 ## ⚖️ Licenses
