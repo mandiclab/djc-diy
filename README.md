@@ -71,14 +71,6 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 
 ## 🛠️ Assembly Guide
 
-**1. Acquire electronic components**  
-**2. 3D print parts**  
-**3. Wire electronics in the case**  
-**4. Install firmware**  
-**5. Install mapping files**  
-**6. Test the device**  
-**7. Assemble the rest 3D printed parts**
-
 ### 1. Acquire electronic components  
 Acquire all electronic components from the electronic components list.  
 I personally bought everything from Aliexpress and had no problems.
@@ -118,7 +110,7 @@ Feel free to use glue where needed.
 **Q:** Is it for sale?  
 **A:** For now, we're not selling the device or DIY kit.
 
-**Q:** Does it work with other DJ software such as Virtual DJ, Rekordbox or Traktor?
+**Q:** Does it work with other DJ software such as Virtual DJ, Rekordbox or Traktor?  
 **A:** Currently out of the box it only works with Mixxx, but the controller sends standard MIDI messages, so it can be manually mapped to other software.
 
 ## ⚖️ Licenses
