@@ -4,7 +4,6 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 
 ![Hot Pic](https://www.mandiclab.com/assets/project-photos/djc-diy/003.webp)
 
-Kurac Picka Govno Sisa
 
 ## ▶️ Video Preview & Tutorial
 👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
@@ -63,6 +62,13 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x? | ➖ Resistor | 1/4W - 10kΩ |
 |  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
 
+## 💻 Required Software
+**Download and install required software**  
+
+**Arduino IDE** - *an open-source development environment for programming Arduino boards* - **[DOWNLOAD](https://www.arduino.cc/en/software/)**  
+**Mixxx** - *an open source DJ software* - **[DOWNLOAD](https://mixxx.org/download/)** 
+
+
 ## 🛠️ Assembly Guide
 
 **1. Acquire electronic components**  
@@ -73,19 +79,39 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 **6. Test the device**  
 **7. Assemble the rest 3D printed parts**
 
-### Acquire electronic components
+### 1. Acquire electronic components  
+Acquire all electronic components from the electronic components list.  
+I personally bought everything from Aliexpress and had no problems.
 
-### 3D print parts
+### 2. 3D print parts  
+3D print all parts from the 3D printed parts list.  
+I used max speed, 15% infill, .2mm layer height. Use support where needed.  
+If something can't be pulled onto a part, try printing it at 105% scale.  
 
-### Wire electronics in the case
+### 3. Wire electronics in the case  
+Here you can see an illustrated schematic. (When I finish illustration for new design.)  
+Solder everything as shown.
 
-### Install firmware
 
-### Install mapping files
+### 4. Install firmware  
+Open firmwar.ino with Arduino IDE.  
+Select your board (some Pro Micro clones can only be used stably as Arduino Leonardo boards).  
+Install MIDIUSB library from Gary Grewal.  
+Then upload the code.  
 
-### Test the device
+### 5. Install mapping files  
+Copy ”DJC-DIY.xml” and ”DJC-DIY-scripts.js” to  
+”C:\Users\username\AppData\Local\Mixxx\controllers”.  
+Select mapping files by going to the preferences. (Options > Preferences or Ctrl + P)  
+Go to the controllers tab and choose something like Arduino/ProMicro/Leonardo.  
+Then go to the load mapping and select DJC-DIY.  
 
-### Assemble the rest 3D printed parts
+### 6. Test the device 
+Test your device before assembling rest 3D printed parts.  
+
+### 7. Assemble the rest 3D printed parts  
+Assemble the rest 3D printed parts.  
+Feel free to use glue where needed.  
 
 ## ❓ FAQ
 
