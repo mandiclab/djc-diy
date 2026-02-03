@@ -59,7 +59,7 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x4 | 🎛️ Rotary Potentiometers | R0902N - B103 - 10kΩ - 23mm shaft lenght - D shaft |
 | x3 | 🎚️ Slider Potentiometers | 60mm - B103 - 10kΩ - 15mm handle lenght |
 | x2 | 🔄 Rotary Encoders | Encoders for knobs & jog wheels |
-| x? | ➖ Resistor | 1/4W - 10kΩ |
+| x4 | ➖ Resistor | 1/4W - 10kΩ |
 |  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
 
 ## 💻 Required Software
