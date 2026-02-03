@@ -81,8 +81,40 @@ I used max speed, 15% infill, .2mm layer height. Use support where needed.
 If something can't be pulled onto a part, try printing it at 105% scale.  
 
 ### 3. Wire electronics in the case  
-Here you can see an illustrated schematic. (When I finish illustration for new design.)  
-Solder everything as shown.
+Here you can see an illustrated schematic.  
+Solder everything as shown.  
+
+
+This is the layout of the electronic components.  
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/00.webp)  
+
+
+First solder left rotary encoder.  
+At the beginning, solder the pins from the bottom side of the Arduino.  
+Use this opportunity to leave more space on the top side for later, because once several electronic components are soldered in place, the Arduino will no longer be movable, and soldering from the bottom side of the pins will no longer be possible.  
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/01.webp)  
+
+
+Then solder right rotary encoder.  
+Also solder the pins from the bottom side.  
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/02.webp)  
+
+
+Next are buttons for the left deck.  
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/03.webp)  
+
+
+Then buttons for the right deck.  
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/04.webp)  
+
+
+And the last are potentiometers.
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/05.webp)  
+
+
+It should look like this when everything is soldered.
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/illustrated%20schematic/06.webp)  
+
 
 
 ### 4. Install firmware  
