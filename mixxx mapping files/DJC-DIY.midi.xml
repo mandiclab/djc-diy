@@ -2,6 +2,8 @@
 <MixxxControllerPreset schemaVersion="1" mixxxVersion="">
     <info>
         <name>DJC-DIY</name>
+        <author>MandićLab</author>
+        <description>This is a mapping for a DJC-DIY. An open-source DIY DJ controller.</description>
     </info>
     <controller id="">
         <scriptfiles>
