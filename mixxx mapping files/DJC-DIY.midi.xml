@@ -8,69 +8,10 @@
             <file functionprefix="DJCDIY" filename="DJC-DIY-scripts.js"/>
         </scriptfiles>
         <controls>
-            <control>
-                <group>[QuickEffectRack1_[Channel2]]</group>
-                <key>super1</key>
-                <status>0xB0</status>
-                <midino>0x0A</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
-                <key>parameter1</key>
-                <status>0xB0</status>
-                <midino>0x0B</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[QuickEffectRack1_[Channel1]]</group>
-                <key>super1</key>
-                <status>0xB0</status>
-                <midino>0x0C</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
-                <key>parameter1</key>
-                <status>0xB0</status>
-                <midino>0x0D</midino>
-                <options>
-                    <normal/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel1]</group>
-                <key>rate</key>
-                <status>0xB0</status>
-                <midino>0x0E</midino>
-                <options>
-                    <invert/>
-                </options>
-            </control>
-            <control>
-                <group>[Master]</group>
-                <key>crossfader</key>
-                <status>0xB0</status>
-                <midino>0x0F</midino>
-                <options>
-                    <invert/>
-                </options>
-            </control>
-            <control>
-                <group>[Channel2]</group>
-                <key>rate</key>
-                <status>0xB0</status>
-                <midino>0x10</midino>
-                <options>
-                    <invert/>
-                </options>
-            </control>
+
+        <!-- Deck 1 -->
+
+            <!-- Jog Wheel -->
             <control>
                 <group>[Channel1]</group>
                 <key>DJCDIY.wheelTurn</key>
@@ -80,6 +21,160 @@
                     <script-binding/>
                 </options>
             </control>
+
+            <!-- Play/Pause -->
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <status>0x80</status>
+                <midino>0x42</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <status>0x90</status>
+                <midino>0x42</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+
+            <!-- Cue -->
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <status>0x80</status>
+                <midino>0x43</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <status>0x90</status>
+                <midino>0x43</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!-- Performance Pad 1 - Hotcue  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_1_activate</key>
+                <status>0x80</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_1_activate</key>
+                <status>0x90</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            
+            <!-- Performance Pad 2 - Hotcue  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_2_activate</key>
+                <status>0x80</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>hotcue_2_activate</key>
+                <status>0x90</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!-- Tempo Fader -->
+            <control>
+                <group>[Channel1]</group>
+                <key>rate</key>
+                <status>0xB0</status>
+                <midino>0x0E</midino>
+                <options>
+                    <invert/>
+                </options>
+            </control>
+            
+
+        <!-- Mixer -->
+
+            <!-- Crossfader -->
+            <control>
+                <group>[Master]</group>
+                <key>crossfader</key>
+                <status>0xB0</status>
+                <midino>0x0F</midino>
+                <options>
+                    <invert/>
+                </options>
+            </control>
+
+            <!-- Low EQ Deck 1 -->
+            <control>
+                <group>[EqualizerRack1_[Channel1]_Effect1]</group>
+                <key>parameter1</key>
+                <status>0xB0</status>
+                <midino>0x0D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!-- FX Deck 1 -->
+            <control>
+                <group>[QuickEffectRack1_[Channel1]]</group>
+                <key>super1</key>
+                <status>0xB0</status>
+                <midino>0x0C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!-- Low EQ Deck 1 -->
+            <control>
+                <group>[EqualizerRack1_[Channel2]_Effect1]</group>
+                <key>parameter1</key>
+                <status>0xB0</status>
+                <midino>0x0B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!-- FX Deck 2 -->
+            <control>
+                <group>[QuickEffectRack1_[Channel2]]</group>
+                <key>super1</key>
+                <status>0xB0</status>
+                <midino>0x0A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+
+        <!-- Deck 2 -->
+
+            <!-- Jog Wheel -->
             <control>
                 <group>[Channel2]</group>
                 <key>DJCDIY.wheelTurn</key>
@@ -89,6 +184,8 @@
                     <script-binding/>
                 </options>
             </control>
+
+            <!-- Play/Pause -->
             <control>
                 <group>[Channel2]</group>
                 <key>play</key>
@@ -107,6 +204,8 @@
                     <normal/>
                 </options>
             </control>
+
+            <!-- Cue -->
             <control>
                 <group>[Channel2]</group>
                 <key>cue_default</key>
@@ -125,42 +224,58 @@
                     <normal/>
                 </options>
             </control>
+
+            <!-- Performance Pad 1 - Hotcue  -->
             <control>
-                <group>[Channel1]</group>
-                <key>play</key>
+                <group>[Channel2]</group>
+                <key>hotcue_1_activate</key>
                 <status>0x80</status>
-                <midino>0x42</midino>
+                <midino>0x41</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>play</key>
+                <group>[Channel2]</group>
+                <key>hotcue_1_activate</key>
                 <status>0x90</status>
-                <midino>0x42</midino>
+                <midino>0x41</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
+
+            <!-- Performance Pad 2 - Hotcue  -->
             <control>
-                <group>[Channel1]</group>
-                <key>cue_default</key>
+                <group>[Channel2]</group>
+                <key>hotcue_2_activate</key>
                 <status>0x80</status>
-                <midino>0x43</midino>
+                <midino>0x3E</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
             <control>
-                <group>[Channel1]</group>
-                <key>cue_default</key>
+                <group>[Channel2]</group>
+                <key>hotcue_2_activate</key>
                 <status>0x90</status>
-                <midino>0x43</midino>
+                <midino>0x3E</midino>
                 <options>
                     <normal/>
                 </options>
             </control>
+
+            <!-- Tempo Fader -->
+            <control>
+                <group>[Channel2]</group>
+                <key>rate</key>
+                <status>0xB0</status>
+                <midino>0x10</midino>
+                <options>
+                    <invert/>
+                </options>
+            </control>
+
         </controls>
         <outputs/>
     </controller>
