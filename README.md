@@ -2,7 +2,7 @@
 DJC-DIY is an open-source DJ controller that you can make at home without special tools, skill or knowledge.  
 It works with [Mixxx](https://mixxx.org/) (open-source DJ software).  
 
-![Hot Pic](https://www.mandiclab.com/assets/project-photos/djc-diy/003.webp)
+![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/djc-diy.webp?raw=true)
 
 
 ## ▶️ Video Preview & Tutorial
@@ -31,12 +31,6 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 ## 🔩 Parts List
 
 ### 3D Printed Parts
-
-**If you don’t have access to a 3D printer, you can order 3D printed parts from PCBWay using the link below.**  
-*Using this link directly supports the development of MandićLab.* 
-
-**[PCBWay](https://www.pcbway.com/project/shareproject/DIY_DJ_Controller_DJC_DIY_adac65c3.html)**
-
 | **🔢 Quantity** | **🧊 Part** | **📄 File Name** |
 |:---:|:---|:---|
 | x1 | Case | case.stl |
