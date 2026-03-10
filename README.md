@@ -50,7 +50,7 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x1 | 🧠 Microcontroller | Arduino Pro Micro - ATmega32U4 - USB Type C |
 | x8 | 🔘 Buttons | B3F-4055 - 12x12x7.3mm |
 | x4 | 🎛️ Rotary Potentiometers | R0902N - B103 - 10kΩ - 23mm shaft lenght - D shaft |
-| x3 | 🎚️ Slider Potentiometers | 60mm - B103 - 10kΩ - 15mm handle lenght |
+| x3 | 🎚️ Slide Potentiometers | 60mm - B103 - 10kΩ - 15mm handle lenght |
 | x2 | 🔄 Rotary Encoders | EC11 - 15mm shaft lenght - D shaft - without push button |
 | x4 | ➖ Resistor | 1/4W - 10kΩ |
 |  | 🔌 Wires | 24 AWG - Red, Black, Blue, Green, Yellow|
