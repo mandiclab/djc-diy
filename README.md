@@ -44,6 +44,15 @@ Download latest stable release from **[releases](https://github.com/mandiclab/dj
 | x4 | Knob | knob.stl |
 | x4 | Feet | feet.stl |
 
+### 📦 Order 3D Printed Parts From PCBWay 
+Thanks to our sponsor **[PCBWay](https://www.pcbway.com/)**, you can now order all 3D printed parts and have them delivered to your door.  
+Not having access to a 3D printer is no longer a problem.  
+
+🛒 **[ORDER ALL 3D PRINTED PARTS](https://www.pcbway.com/rapid-prototyping/manufacture/?type=3&reffercode=Project&projectattid=78823)**  
+🔎 **[SEE THE WHOLE PROJECT](https://www.pcbway.com/project/shareproject/DIY_DJ_Controller_DJC_DIY_adac65c3.html)**  
+
+*By ordering through PCBWay, you’re also supporting the project and helping future development.*  
+
 ### Electronic Components  
 | **🔢 Quantity** | **🧩 Component** | **📄 Description** |
 |:---:|:---|:---|
