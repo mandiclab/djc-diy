@@ -123,7 +123,8 @@ It should look like this when everything is soldered.
 Open firmwar.ino with Arduino IDE.  
 Select your board.  
 >[!WARNING]
->*If your board is already selected, use it as is. Some arduino clones can only work like that and you can break them otherwise.*  
+>*If your board is already selected, use it as is. Some arduino clones can only work like that and you can break them otherwise.*
+
 Install MIDIUSB library from Gary Grewal.  
 Then upload the code.  
 
