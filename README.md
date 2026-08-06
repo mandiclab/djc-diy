@@ -7,7 +7,9 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 
 ## ▶️ Video Preview & Tutorial
 👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
-🎓 **[Tutorial](https://youtu.be/Z4C7toXesU8?si=7H11E58jwsbux4Dv)**
+🎧 **[Demo *coming soon*]()**  
+🎓 **[Assemby Tutorial](https://youtu.be/Z4C7toXesU8?si=7H11E58jwsbux4Dv)**  
+🎓 **[DJ Tutorial *coming soon*]()**  
 
 ## 👥 Community
 ☕ Support by donating on **[Ko-fi](https://ko-fi.com/mandiclab)**.  
