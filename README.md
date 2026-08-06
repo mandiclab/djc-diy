@@ -5,7 +5,7 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 ![Hot Pic](https://github.com/mandiclab/djc-diy/blob/main/assets/djc-diy.webp?raw=true)
 
 
-## ▶️ Video Preview & Tutorial
+## ▶️ Videos
 👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
 🎧 **[Demo - *coming soon*]()**  
 🎓 **[Assemby Tutorial](https://youtu.be/Z4C7toXesU8?si=7H11E58jwsbux4Dv)**  
