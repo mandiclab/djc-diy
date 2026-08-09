@@ -7,7 +7,7 @@ It works with [Mixxx](https://mixxx.org/) (open-source DJ software).
 
 ## ▶️ Videos
 👀 **[Preview](https://youtu.be/gbPC8Bg0U9I?si=byUlCWdjjWGdwAEo)**  
-🎧 **[Demo - *coming soon*]()**  
+🎧 **[Demo](https://youtu.be/WDb8kAIuzXc)**  
 🎓 **[Assemby Tutorial](https://youtu.be/Z4C7toXesU8?si=7H11E58jwsbux4Dv)**  
 🎓 **[DJ Tutorial - *coming soon*]()**  
 
