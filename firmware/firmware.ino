@@ -13,11 +13,11 @@ bool note1On = false;
 bool note2On = false;
 
 // ADC reference zones
-const int BTN1_MIN = 450;  // ~512
-const int BTN1_MAX = 580;
+const int BTN1_MIN = 20;  // ~30
+const int BTN1_MAX = 40;
 
-const int BTN2_MIN = 630;  // ~680
-const int BTN2_MAX = 750;
+const int BTN2_MIN = 41;  // ~90
+const int BTN2_MAX = 160;
 
 
 // ---------- POTENTIOMETERS ----------
