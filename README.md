@@ -1,4 +1,4 @@
-# *DJC-DIY - The World's First DIY DJ Controller*
+# *DJC-DIY - DIY DJ Controller*
 DJC-DIY is an open-source DJ controller that you can make at home without special tools, skill or knowledge.  
 It works with [Mixxx](https://mixxx.org/) (open-source DJ software).  
 
